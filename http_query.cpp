@@ -45,7 +45,6 @@ using namespace std;
 int sock;
 struct sockaddr_in client;
 int PORT = 80;
-//https://jsonplaceholder.typicode.com/todos/1
 string getHost(string url) {
   size_t found = url.find_first_of(":");
   string protocol=url.substr(0,found); 
